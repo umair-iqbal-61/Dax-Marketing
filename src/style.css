@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@source "./index.html";
+@source "./src/**/*.{vue,js,ts,jsx,tsx}";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@theme {
+  --breakpoint-xsm: 200px;
+  --breakpoint-sm: 393px;
+  --breakpoint-md: 834px;
+  --breakpoint-lg: 1200px;
+}
+
+@theme {
+  /* Fonts */
+  --font-sans: "Poppins", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  --font-heading: "Poppins", ui-sans-serif, system-ui;
+
+  /* Color Palette */
+
+  /* Blue Shades */
+  --color-blue: #0101FD;
+  --color-blue-dark: #01017A;
+  --color-blue-light-3: #3366FF;
+  --color-blue-light-2: #668CFF;
+  --color-blue-light-1: #99B3FF;
+  --color-light-blue-bg: #F8F8FA;
+
+  /* Greyscale */
+  --color-grey-dark-2: #333333;
+  --color-grey-dark-1: #999999;
+  --color-grey: #B3B3B3;
+  --color-grey-light-1: #D9D9D9;
+  --color-white: #FFFFFF;
+
+  /* Green Shades */
+  --color-green: #22A121;
+  --color-green-dark: #1D8C1D;
+  --color-green-light-3: #268625;
+  --color-green-light-2: #78E378;
+  --color-green-light-1: #D7FDD7;
+
+  /* Orange Shades */
+  --color-orange: #F5A623;
+  --color-orange-dark: #F89402;
+  --color-orange-light-3: #FDAA30;
+  --color-orange-light-2: #FEC97C;
+  --color-orange-light-1: #FFECD1;
+
+  /* Red Shades */
+  --color-red: #DB211D;
+  --color-red-dark: #C21D1A;
+  --color-red-light-3: #D8201D;
+  --color-red-light-2: #F29E9C;
+  --color-red-light-1: #FFEBEB;
+}
+
+@layer base {
+
+  html,
+  body {
+    @apply font-sans;
+    background-color: var(--color-light-blue-bg);
+    color: var(--color-grey-dark-2);
+  }
+
+  /* Example base styles using palette */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-grey-dark-2);
+  }
+
+  a {
+    color: var(--color-grey-dark-2);
+  }
+
+  a:hover {
+    color: var(--color-blue);
+  }
+
+}
