@@ -1,5 +1,8 @@
 
 # Marketing Website
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ##### `Made this website for a client from Fiverr.`
 
 ## Description
@@ -9,6 +12,7 @@ The project focuses on modern UI design and responsive layouts for different scr
 ## Technologies Used
 - Vue.js
 - Tailwind CSS
+- JavaScript
 
 ## Features
 - Fully responsive design
@@ -19,7 +23,7 @@ The project focuses on modern UI design and responsive layouts for different scr
 https://dax-marketing.vercel.app/
 
 ## Screenshots
-![Homepage Screenshot](./screenshot.png)
+![Homepage Screenshot](./dax-marketing-ss.png)
 
 ## Author
 Umair
